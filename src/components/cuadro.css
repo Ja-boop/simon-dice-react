@@ -1,0 +1,40 @@
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "cuadro-1 cuadro-2"
+    "cuadro-3 cuadro-4";
+}
+  
+.cuadro-1 { 
+    grid-area: cuadro-1;
+    background-color: #c9db00; 
+}
+
+.cuadro-2 { 
+    grid-area: cuadro-2; 
+    background-color: darkblue;
+}
+
+.cuadro-3 { 
+    grid-area: cuadro-3;
+    background-color: red;
+}
+
+.cuadro-4 { 
+    grid-area: cuadro-4; 
+    background-color: green;
+}
+
+.cuadro-style {
+    opacity: 0.5;
+}
+
+.container-grid-style {
+    height: 700px;
+    width: 50%;
+    border-style: solid;
+}
