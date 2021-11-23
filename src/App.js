@@ -1,10 +1,11 @@
-import './App.css';
-import CuadroGrid from './components/CuadroGrid';
+import './App.scss';
+import Tablero from './components/Tablero';
 
 function App() {
   return (
     <div className="App">
-      <CuadroGrid />
+      <Tablero />
+      
     </div>
   );
 }

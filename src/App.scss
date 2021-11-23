@@ -1,0 +1,77 @@
+.color-cuadro {
+    width: 200px;
+    height: 200px;
+}
+
+.tablero {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lost {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flash.flash {
+    border: 3px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.yellow {
+    background-color: yellow;
+    &.flash {
+        background-color: rgb(212, 212, 165);
+    }
+}
+
+.blue {
+    background-color: blue;
+    &.flash {
+        background-color: rgb(110, 103, 204);
+    }
+}
+
+.red {
+    background-color: red;
+    &.flash {
+        background-color: rgb(255, 146, 146);
+    }
+}
+
+.green {
+    background-color: green;
+    &.flash {
+        background-color: rgb(122, 255, 155);
+    }
+}
+
+.startButton {
+    position: absolute;
+    width: 100px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 100px;
+}
